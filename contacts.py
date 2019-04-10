@@ -161,7 +161,7 @@ def main():
 			print("Thank you for using me!")
 	#appends the new contact sheet into the textfile
 	for contact in contacts:
-		stringContact = (", ".join(contact))
+		stringContact = (",".join(contact))
 		if stringContact != "":				
 			openFile.write(stringContact)	 #writes the new contacts to the address book	
 			openFile.write("\n")				 #starts a new line													
